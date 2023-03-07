@@ -1,9 +1,14 @@
 import React from 'react';
 import './home.scss';
+import Featured from '../../components/featured';
+import TrustedBy from '../../components/trustedBy/TrustedBy';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="home">
+      <Featured />
+      <TrustedBy />
+    </div>
   )
 }
 
